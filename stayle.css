@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    background-color: rgba(46, 46, 46, 0.596);
+}
+
+#labels{
+    text-align: center;
+    font-size: 5em;
+}
+#label1{
+    color: rgb(143, 0, 0);
+}
+#label2{
+    color: rgb(143, 0, 0);
+}
+#label3{
+    color: rgb(143, 0, 0);
+}
+
+
+#rollButton{
+    text-align: center;
+    font-size: 5em;
+    padding: 10px 2em;
+    border: none;
+    border-radius: 35px;
+    background-color: brown;
+    color: bisque;
+    box-shadow: 0 5px 10px;
+    transition: 0.2s;
+}
+#rollButton:hover{
+    opacity: 0.9;
+}
+#rollButton:active{
+    opacity: 0.8;
+}
